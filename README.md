@@ -1,8 +1,8 @@
 Oracle Standard Edition 12c Release 1
 ============================
-Проверки:
+Проверкa:
 
-[![](https://sun9-9.userapi.com/impg/dbPJlc3Bhf5YOKW_tNIXYIvfhsRwTqkFuCcKjg/uZElyVxuxmU.jpg?size=1920x1080&quality=96&proxy=1&sign=e2c0d8a7bbe359a6d9c9b447a0f2d16e)
+![](https://sun9-9.userapi.com/impg/dbPJlc3Bhf5YOKW_tNIXYIvfhsRwTqkFuCcKjg/uZElyVxuxmU.jpg?size=1920x1080&quality=96&proxy=1&sign=e2c0d8a7bbe359a6d9c9b447a0f2d16e)
 
 
 ### Installation
@@ -40,7 +40,7 @@ Password for SYS & SYSTEM:
 
     oracle
 LOGS:
-[![](https://sun9-11.userapi.com/impg/9kJmfKYA5Lpcx06HgA4OmCpkyPZYcVDpoQzhHw/tHi3vjJoPmE.jpg?size=1920x1080&quality=96&proxy=1&sign=f12b68d6e3cd49f3cd495f223853b1e8)
+![](https://sun9-11.userapi.com/impg/9kJmfKYA5Lpcx06HgA4OmCpkyPZYcVDpoQzhHw/tHi3vjJoPmE.jpg?size=1920x1080&quality=96&proxy=1&sign=f12b68d6e3cd49f3cd495f223853b1e8)
 ### Installation
 Monitoring db:
 
@@ -49,5 +49,5 @@ Run:
 
     docker run war1s/testin_db
     
-[![](https://raw.githubusercontent.com/WAR-S/docker-oracle-12c/master/my_work/CHECK%20CONSTAINER.bmp)
+![](https://raw.githubusercontent.com/WAR-S/docker-oracle-12c/master/my_work/CHECK%20CONSTAINER.bmp)
 

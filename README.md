@@ -7,20 +7,19 @@ Oracle Standard Edition 12c Release 1
 
 ### Installation
 
-    docker pull sath89/oracle-12c
+    docker pull war1s/tz
 
 Run with 8080 and 1521 ports opened:
 
-    docker run -d -p 8080:8080 -p 1521:1521 sath89/oracle-12c
+    docker run -d -p 8080:8080 -p 1521:1521 war1s/tz
 
 Run with data on host and reuse it:
 
-    docker run -d -p 8080:8080 -p 1521:1521 -v /my/oracle/data:/u01/app/oracle sath89/oracle-12c
+    docker run -d -p 8080:8080 -p 1521:1521 -v /my/oracle/data:/u01/app/oracle war1s/tz
 
 Run with Custom DBCA_TOTAL_MEMORY (in Mb):
 
-    docker run -d -p 8080:8080 -p 1521:1521 -v /my/oracle/data:/u01/app/oracle -e DBCA_TOTAL_MEMORY=1024 sath89/oracle-12c
-
+    docker run -d -p 8080:8080 -p 1521:1521 -v /my/oracle/data:/u01/app/oracle -e DBCA_TOTAL_MEMORY=1024 war1s/tz
 Connect database with following setting:
 
     hostname: localhost

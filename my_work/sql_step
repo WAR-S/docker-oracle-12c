@@ -1,0 +1,43 @@
+REATE USER sus
+  IDENTIFIED BY 12345
+
+
+
+  # Назначение привелегий sus новому пользователю в Oracle
+
+  grant connect, resource to sus
+  GRANT UNLIMITED TABLESPACE TO sus;
+  grant create session to sus;
+  grant create table to sus;
+  grant create procedure to sus;
+  grant create trigger to sus;
+  grant create view to sus;
+  grant create sequence to sus;
+  grant alter any table to sus;
+  grant alter any procedure to sus;
+  grant alter any trigger to sus;
+  grant alter profile to sus;
+  grant delete any table to sus;
+  grant drop any table to sus;
+  grant drop any procedure to sus;
+  grant drop any trigger to sus;
+  grant drop any view to sus;
+  grant drop profile to sus;
+  grant select on sys.v_$session to sus;
+  grant select on sys.v_$sesstat to sus;
+  grant select on sys.v_$statname to sus;
+  grant SELECT ANY DICTIONARY to sus;
+
+       CREATE TABLE ACCOUNTS
+        ( 
+	ACCOUNT_NUMBER varchar2(15) PRIMARY KEY,
+	msisdn varchar2(11) not null,
+ 	status varchar2(10)
+        );
+
+
+ INSERT INTO ACCOUNTS (account_number, msisdn, status) VALUES ('79204271603', 'Hoffman', 'WORK');
+ INSERT INTO ACCOUNTS (account_number, msisdn, status) VALUES ('79204271601', 'xHoffman', 'niWORK');
+
+
+
